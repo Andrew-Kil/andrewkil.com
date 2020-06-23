@@ -1,0 +1,51 @@
+:root {
+  --primary-color: #ffffff;
+  --secondary-color: #151513;
+  --tertiary-color: #03045e;
+  --quaternary-color: #22272c;
+  --url-color: #0000ff;
+}
+
+html {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+}
+
+h3 {
+  text-align: center;
+  padding: 1em 0em;
+  letter-spacing: 0.07em;
+  font-size: 1.8em;
+  font-weight: 600;
+  color: #011627;
+  text-transform: uppercase;
+}
+
+.app {
+  line-height: 2em;
+  animation: fadein 2s;
+  width: 100vw;
+}
+
+.component-container {
+  display: flex;
+  justify-content: center;
+
+  padding: 2.5vw 10vw;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
