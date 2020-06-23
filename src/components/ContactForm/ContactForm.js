@@ -1,120 +1,57 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import axios from "axios";
 import "./ContactForm.css";
 
 const ContactForm = () => {
-  const [inputs, setInputs] = useState({
-    email: "",
-    message: "",
-  });
   const [serverState, setServerState] = useState({
     submitting: false,
     status: null,
   });
-  const [fieldErrors, setFieldErrors] = useState({});
 
-  const validationRules = {
-    email: (val) => val && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(val),
-    message: (val) => !!val,
-  };
-
-  const validate = () => {
-    let errors = {};
-    let hasErrors = false;
-    for (let key of Object.keys(inputs)) {
-      errors[key] = !validationRules[key](inputs[key]);
-      hasErrors |= errors[key];
-    }
-    setFieldErrors((prev) => ({ ...prev, ...errors }));
-    return !hasErrors;
-  };
-
-  const renderFieldError = (field) => {
-    if (fieldErrors[field]) {
-      return <p className="errorMsg">Please enter a valid {field}.</p>;
-    }
-  };
-
-  const handleOnChange = (event) => {
-    event.persist();
-    setInputs((prev) => ({
-      ...prev,
-      [event.target.id]: event.target.value,
-    }));
-  };
-
-  const handleServerResponse = (ok, msg) => {
+  const handleServerResponse = (ok, msg, form) => {
     setServerState({
       submitting: false,
       status: { ok, msg },
     });
     if (ok) {
-      setFieldErrors({});
-      setInputs({
-        email: "",
-        message: "",
-      });
+      form.reset();
     }
   };
 
-  const handleOnSubmit = (event) => {
-    event.preventDefault();
-    if (!validate()) {
-      return;
-    }
+  const handleOnSubmit = (e) => {
+    e.preventDefault();
+    const form = e.target;
     setServerState({ submitting: true });
     axios({
-      method: "POST",
+      method: "post",
       url: "https://formspree.io/mlepnzay",
-      data: inputs,
+      data: new FormData(form),
     })
       .then((r) => {
-        handleServerResponse(true, "Your message has been sent. Thank you!");
+        handleServerResponse(
+          true,
+          "Your message has been sent. Thank you!",
+          form
+        );
       })
       .catch((r) => {
-        handleServerResponse(false, r.response.data.error);
+        handleServerResponse(false, r.response.data.error, form);
       });
   };
-
-  useEffect(() => {
-    if (Object.keys(fieldErrors).length > 0) {
-      validate();
-    }
-  }, [inputs]);
 
   return (
     <div id="contact" className="component-container">
       <h3>Contact</h3>
-
-      <form
-        onSubmit={handleOnSubmit}
-        noValidate
-        action="https://formspree.io/mlepnzay"
-        method="POST"
-        className="form-container">
-        <label htmlFor="email">Email Address</label>
-        <input
-          id="email"
-          type="email"
-          name="email"
-          onChange={handleOnChange}
-          value={inputs.email}
-          className={fieldErrors.email ? "error" : ""}
-        />
-        {renderFieldError("email")}
-        <label htmlFor="message">Message</label>
-        <textarea
-          id="message"
-          name="message"
-          onChange={handleOnChange}
-          value={inputs.message}
-          className={fieldErrors.message ? "error" : ""}></textarea>
-        {renderFieldError("message")}
+      <form onSubmit={handleOnSubmit} className="form-container">
+        <label htmlFor="email">Email:</label>
+        <input id="email" type="email" name="email" required />
+        <label htmlFor="message">Message:</label>
+        <textarea id="message" name="message"></textarea>
         <button type="submit" disabled={serverState.submitting}>
           Send
         </button>
         {serverState.status && (
-          <p className={!serverState.status.ok ? "errorMsg" : "success"}>
+          <p className={!serverState.status.ok ? "errorMsg" : ""}>
             {serverState.status.msg}
           </p>
         )}
