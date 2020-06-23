@@ -1,0 +1,31 @@
+.about-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.about-info p {
+  margin: 0 auto;
+  text-align: left;
+  padding: 0.5em;
+  max-width: 50em;
+}
+
+/* .andrew-photo-container {
+  text-align: center;
+}
+
+.andrew-photo {
+  width: 12em;
+  border-radius: 50%;
+} */
+
+.about-text a {
+  text-decoration: none;
+  color: var(--url-color);
+}
+
+.about-text a:hover {
+  border-bottom: 1px solid var(--url-color);
+}
