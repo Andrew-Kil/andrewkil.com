@@ -80,7 +80,7 @@ const ContactForm = () => {
           target="_blank"
           rel="noopener noreferrer">
           <img
-            src="https://www.codewars.com/users/AndrewKil/badges/large"
+            src="https://www.codewars.com/users/AndrewKil/badges/micro"
             alt="Codewars badge"></img>
         </a>
       </div>
