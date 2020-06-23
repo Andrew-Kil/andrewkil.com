@@ -1,0 +1,252 @@
+#active {
+  border-color: var(--tertiary-color);
+  background-color: var(--tertiary-color);
+  color: var(--primary-color);
+}
+
+.portfolio-container a {
+  text-decoration: none;
+}
+
+.github-chart {
+  padding: 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.github-char-text {
+  color: var(--url-color);
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project {
+  position: relative;
+  display: block;
+  padding: 1.2em;
+  margin: 0.5em;
+  width: 40%;
+  margin-bottom: 1em;
+  background-color: rgba(73, 103, 139, 0.05);
+  border-radius: 5px;
+  animation: fadein 2s;
+}
+
+.project-image a img {
+  width: 100%;
+  box-shadow: 0.2em 0.2em 0.2em 0.1em rgba(0, 0, 0, 0.2);
+  outline: 0.1em solid rgba(128, 128, 128, 0.3);
+  display: block;
+  margin: 0 auto;
+}
+
+.image-container {
+  position: relative;
+}
+
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.image-container:hover img {
+  opacity: 0.3;
+}
+
+.image-container:hover .middle {
+  opacity: 1;
+}
+
+.middle-text {
+  background-color: var(--tertiary-color);
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0.5em 1em;
+  opacity: 0.9;
+  border-radius: 3px;
+}
+
+.project-container {
+  max-width: 45em;
+  margin: 0 auto;
+  padding: 0 1em 1em 1em;
+  text-align: left;
+}
+
+.filter-projects-text {
+  text-align: center;
+  margin: 2em 0;
+}
+
+.tags {
+  margin-bottom: 1em;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tags button,
+.tech-tags li {
+  background-color: #acabab;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 600;
+  margin: 0.25em 1em 0.5em 0;
+  line-height: 100%;
+  padding: 5px 10px;
+  background-color: #e5e5e5;
+  border-radius: 3px;
+  color: #000000;
+  box-shadow: 0 2px #999;
+}
+
+.tags button {
+  outline: thin;
+}
+
+.tags button:hover {
+  cursor: pointer;
+  background-color: var(--primary-color);
+  color: var(--tertiary-color);
+  border-color: var(--tertiary-color);
+}
+
+.tags button:active {
+  box-shadow: 0 1px #666;
+  transform: translateY(1px);
+}
+
+.tech-tags {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0;
+  min-width: 10px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1;
+  vertical-align: middle;
+  white-space: nowrap;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.project-tech {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.project-links {
+  display: inline-flex;
+  width: 100%;
+}
+
+.project-links a,
+.project-links div {
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.project-links a:first-child,
+.project-links div:first-child {
+  border-top: 2px solid var(--tertiary-color);
+  border-left: 2px solid var(--tertiary-color);
+  border-bottom: 2px solid var(--tertiary-color);
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  background-color: var(--tertiary-color);
+  color: white;
+}
+
+.project-links div:first-child {
+  opacity: 0.5;
+}
+
+.project-links a:nth-child(2) {
+  color: black;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.project-links a:first-child:hover {
+  background-color: white;
+  color: var(--tertiary-color);
+}
+
+.project-links div:first-child:hover {
+  cursor: no-drop;
+}
+
+.project-links a:nth-child(2):hover {
+  background-color: black;
+  color: white;
+}
+
+.project-title h4 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.2em;
+  text-decoration: none;
+  color: var(--tertiary-color);
+  font-weight: 600;
+}
+
+.project-title a:hover {
+  border-bottom: 1px solid var(--tertiary-color);
+}
+
+@media only screen and (max-width: 768px) {
+  .github-chart {
+    text-align: center;
+  }
+
+  .github-chart img {
+    width: 100%;
+  }
+
+  .project {
+    width: 100%;
+  }
+
+  .project-container {
+    width: 75vw;
+  }
+
+  .project-image a img {
+    width: 15em;
+  }
+
+  .tech-tags li {
+    font-size: 0.9em;
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
