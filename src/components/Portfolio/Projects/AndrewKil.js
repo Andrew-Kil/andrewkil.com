@@ -8,7 +8,7 @@ const AndrewKil = () => {
       <div className="project-container">
         <div className="project-image">
           <a
-            href="INSERT GITHUB LINK HERE!!!"
+            href="https://andrewkil.com/"
             target="_blank"
             rel="noopener noreferrer">
             <div className="image-container">
@@ -24,13 +24,13 @@ const AndrewKil = () => {
         </div>
         <div className="project-links">
           <a
-            href="INSERT GITHUB LINK HERE!!!"
+            href="https://andrewkil.com/"
             target="_blank"
             rel="noopener noreferrer">
             Demo
           </a>
           <a
-            href="INSERT GITHUB LINK HERE!!!"
+            href="https://github.com/Andrew-Kil/andrewkil.com"
             target="_blank"
             rel="noopener noreferrer">
             Code
@@ -45,11 +45,9 @@ const AndrewKil = () => {
         </div>
         <p className="project-tech">Tech:</p>
         <ul className="tech-tags">
-          <li>{c.HTML5}</li>
-          <li>{c.CSS3}</li>
-          <li>{c.JAVASCRIPT}</li>
-          <li>{c.REACT}</li>
-          <li>{c.NETLIFY}</li>
+          {c.projectTags.andrewKil.slice(1).map((tag) => (
+            <li>{tag}</li>
+          ))}
         </ul>
       </div>
     </section>

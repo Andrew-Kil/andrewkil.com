@@ -42,11 +42,9 @@ const StudyBuddy = () => {
           </p>
           <p className="project-tech">Tech:</p>
           <ul className="tech-tags">
-            <li>{c.HTML5}</li>
-            <li>{c.CSS3}</li>
-            <li>{c.JAVASCRIPT}</li>
-            <li>{c.REACT}</li>
-            <li>{c.LOCAL_STORAGE}</li>
+            {c.projectTags.studyBuddy.slice(1).map((tag) => (
+              <li>{tag}</li>
+            ))}
           </ul>
         </div>
       </div>

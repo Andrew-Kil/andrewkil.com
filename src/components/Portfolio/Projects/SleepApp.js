@@ -43,16 +43,9 @@ const SleepApp = () => {
           </p>
           <p className="project-tech">Tech:</p>
           <ul className="tech-tags">
-            <li>{c.HTML5}</li>
-            <li>{c.CSS3}</li>
-            <li>{c.JAVASCRIPT}</li>
-            <li>{c.REACT}</li>
-            <li>{c.CONTEXT_API}</li>
-            <li>{c.MATERIAL_UI}</li>
-            <li>{c.NODE}</li>
-            <li>{c.EXPRESS}</li>
-            <li>{c.POSTGRESQL}</li>
-            <li>{c.FIREBASE}</li>
+            {c.projectTags.sleepApp.slice(1).map((tag) => (
+              <li>{tag}</li>
+            ))}
           </ul>
         </div>
       </div>

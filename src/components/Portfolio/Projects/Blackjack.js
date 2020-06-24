@@ -43,9 +43,9 @@ const Blackjack = () => {
           </p>
           <p className="project-tech">Tech:</p>
           <ul className="tech-tags">
-            <li>{c.HTML5}</li>
-            <li>{c.CSS3}</li>
-            <li>{c.JAVASCRIPT}</li>
+            {c.projectTags.blackjack.slice(1).map((tag) => (
+              <li>{tag}</li>
+            ))}
           </ul>
         </div>
       </div>

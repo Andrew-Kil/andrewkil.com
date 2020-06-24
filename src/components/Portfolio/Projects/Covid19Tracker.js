@@ -43,12 +43,9 @@ const Covid19Tracker = () => {
           </p>
           <p className="project-tech">Tech:</p>
           <ul className="tech-tags">
-            <li>{c.HTML5}</li>
-            <li>{c.CSS3}</li>
-            <li>{c.JAVASCRIPT}</li>
-            <li>{c.REACT}</li>
-            <li>{c.MATERIAL_UI}</li>
-            <li>{c.CHART_JS}</li>
+            {c.projectTags.covid19Tracker.slice(1).map((tag) => (
+              <li>{tag}</li>
+            ))}
           </ul>
         </div>
       </div>

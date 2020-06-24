@@ -43,14 +43,9 @@ const ConnectFour = () => {
           </p>
           <p className="project-tech">Tech:</p>
           <ul className="tech-tags">
-            <li>{c.HTML5}</li>
-            <li>{c.CSS3}</li>
-            <li>{c.CSS_MODULES}</li>
-            <li>{c.JAVASCRIPT}</li>
-            <li>{c.REACT}</li>
-            <li>{c.REDUX}</li>
-            <li>{c.BOOTSTRAP}</li>
-            <li>{c.JEST}</li>
+            {c.projectTags.connectFour.slice(1).map((tag) => (
+              <li>{tag}</li>
+            ))}
           </ul>
         </div>
       </div>
