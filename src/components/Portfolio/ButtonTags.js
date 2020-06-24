@@ -11,16 +11,28 @@ const ButtonTags = (props) => {
         {c.SHOW_ALL}
       </button>
       <button
-        value={c.HTML5}
+        value={c.FRONTEND}
         onClick={(e) => props.handleClick(e)}
-        id={props.selectedTag === c.HTML5 ? "active" : undefined}>
-        {c.HTML5}
+        id={props.selectedTag === c.FRONTEND ? "active" : undefined}>
+        {c.FRONTEND}
       </button>
       <button
-        value={c.CSS3}
+        value={c.FULL_STACK}
         onClick={(e) => props.handleClick(e)}
-        id={props.selectedTag === c.CSS3 ? "active" : undefined}>
-        {c.CSS3}
+        id={props.selectedTag === c.FULL_STACK ? "active" : undefined}>
+        {c.FULL_STACK}
+      </button>
+      <button
+        value={c.RESPONSIVE_DESIGN}
+        onClick={(e) => props.handleClick(e)}
+        id={props.selectedTag === c.RESPONSIVE_DESIGN ? "active" : undefined}>
+        {c.RESPONSIVE_DESIGN}
+      </button>
+      <button
+        value={c.HTML5_CSS3}
+        onClick={(e) => props.handleClick(e)}
+        id={props.selectedTag === c.HTML5_CSS3 ? "active" : undefined}>
+        {c.HTML5_CSS3}
       </button>
       <button
         value={c.SASS_SCSS}
@@ -71,22 +83,10 @@ const ButtonTags = (props) => {
         {c.CONTEXT_API}
       </button>
       <button
-        value={c.LOCAL_STORAGE}
+        value={c.NODE_EXPRESS}
         onClick={(e) => props.handleClick(e)}
-        id={props.selectedTag === c.LOCAL_STORAGE ? "active" : undefined}>
-        {c.LOCAL_STORAGE}
-      </button>
-      <button
-        value={c.NODE}
-        onClick={(e) => props.handleClick(e)}
-        id={props.selectedTag === c.NODE ? "active" : undefined}>
-        {c.NODE}
-      </button>
-      <button
-        value={c.EXPRESS}
-        onClick={(e) => props.handleClick(e)}
-        id={props.selectedTag === c.EXPRESS ? "active" : undefined}>
-        {c.EXPRESS}
+        id={props.selectedTag === c.NODE_EXPRESS ? "active" : undefined}>
+        {c.NODE_EXPRESS}
       </button>
       <button
         value={c.POSTGRESQL}
@@ -99,30 +99,6 @@ const ButtonTags = (props) => {
         onClick={(e) => props.handleClick(e)}
         id={props.selectedTag === c.JEST ? "active" : undefined}>
         {c.JEST}
-      </button>
-      <button
-        value={c.CHART_JS}
-        onClick={(e) => props.handleClick(e)}
-        id={props.selectedTag === c.CHART_JS ? "active" : undefined}>
-        {c.CHART_JS}
-      </button>
-      <button
-        value={c.HEROKU}
-        onClick={(e) => props.handleClick(e)}
-        id={props.selectedTag === c.HEROKU ? "active" : undefined}>
-        {c.HEROKU}
-      </button>
-      <button
-        value={c.NETLIFY}
-        onClick={(e) => props.handleClick(e)}
-        id={props.selectedTag === c.NETLIFY ? "active" : undefined}>
-        {c.NETLIFY}
-      </button>
-      <button
-        value={c.FIREBASE}
-        onClick={(e) => props.handleClick(e)}
-        id={props.selectedTag === c.FIREBASE ? "active" : undefined}>
-        {c.FIREBASE}
       </button>
     </>
   );
