@@ -15,7 +15,7 @@
 }
 
 .github-char-text {
-  color: var(--url-color);
+  color: var(--tertiary-color);
   text-align: center;
   margin-bottom: 2em;
 }
