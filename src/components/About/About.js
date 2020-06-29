@@ -1,4 +1,5 @@
 import React from "react";
+import resume from "../../assets/resume.pdf";
 import "./About.css";
 
 const About = () => {
@@ -34,6 +35,39 @@ const About = () => {
               Feel free to <a href="#contact">contact me</a> if you have any
               questions or want to chat!
             </p>
+          </div>
+          <div className="codewars-badge-container">
+            <a
+              href="https://www.codewars.com/users/AndrewKil"
+              target="_blank"
+              rel="noopener noreferrer">
+              <img
+                src="https://www.codewars.com/users/AndrewKil/badges/micro"
+                alt="Codewars badge"></img>
+            </a>
+          </div>
+          <div className="contact-buttons-container">
+            <a
+              href="https://github.com/Andrew-Kil"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="contact-buttons">
+              GitHub
+            </a>
+            <a
+              href="https://www.linkedin.com/in/andrew-kil/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="contact-buttons">
+              LinkedIn
+            </a>
+            <a
+              href={resume}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="contact-buttons">
+              Resume
+            </a>
           </div>
         </section>
       </div>

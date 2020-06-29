@@ -24,6 +24,7 @@ export const FRONTEND = "Frontend";
 export const BACKEND = "Backend";
 export const FULL_STACK = "Full Stack";
 export const RESPONSIVE_DESIGN = "Responsive Design";
+export const GAME = "Game";
 
 export const projectTags = {
   andrewKil: [
@@ -68,6 +69,7 @@ export const projectTags = {
     LOCAL_STORAGE,
     FRONTEND,
     RESPONSIVE_DESIGN,
+    GAME,
   ],
   covid19Tracker: [
     SHOW_ALL,
@@ -90,8 +92,9 @@ export const projectTags = {
     JEST,
     FRONTEND,
     RESPONSIVE_DESIGN,
+    GAME,
   ],
-  blackjack: [SHOW_ALL, HTML5_CSS3, JAVASCRIPT, FRONTEND],
+  blackjack: [SHOW_ALL, HTML5_CSS3, JAVASCRIPT, FRONTEND, GAME],
   studyBuddy: [
     SHOW_ALL,
     HTML5_CSS3,

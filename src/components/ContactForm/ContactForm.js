@@ -56,34 +56,6 @@ const ContactForm = () => {
           </p>
         )}
       </form>
-
-      <div className="contact-buttons-container">
-        <a
-          href="https://github.com/Andrew-Kil"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="contact-buttons">
-          GitHub
-        </a>
-        <a
-          href="https://www.linkedin.com/in/andrew-kil/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="contact-buttons">
-          LinkedIn
-        </a>
-      </div>
-
-      <div className="codewars-badge-container">
-        <a
-          href="https://www.codewars.com/users/AndrewKil"
-          target="_blank"
-          rel="noopener noreferrer">
-          <img
-            src="https://www.codewars.com/users/AndrewKil/badges/micro"
-            alt="Codewars badge"></img>
-        </a>
-      </div>
     </div>
   );
 };
