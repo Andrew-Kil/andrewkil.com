@@ -4,6 +4,7 @@ import * as c from "./constants";
 import AndrewKil from "./Projects/AndrewKil";
 import SaveAPlate from "./Projects/SaveAPlate";
 import SleepApp from "./Projects/SleepApp";
+import RecipePals from "./Projects/RecipePals";
 import ScareTheCrow from "./Projects/ScareTheCrow";
 import Covid19Tracker from "./Projects/Covid19Tracker";
 import ConnectFour from "./Projects/ConnectFour";
@@ -61,6 +62,7 @@ const Projects = () => {
           {c.projectTags.saveAPlate.includes(selectedTag) && <SaveAPlate />}
           {c.projectTags.sleepApp.includes(selectedTag) && <SleepApp />}
           {c.projectTags.scareTheCrow.includes(selectedTag) && <ScareTheCrow />}
+          {c.projectTags.recipePals.includes(selectedTag) && <RecipePals />}
           {c.projectTags.covid19Tracker.includes(selectedTag) && (
             <Covid19Tracker />
           )}
