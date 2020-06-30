@@ -38,11 +38,11 @@ const ScareTheCrow = () => {
         </div>
         <div className="project-description">
           <p>
-            This is my take on the classic word guessing game - Hangman. Scare
-            the crow before the crow scares you! The user can select a
-            difficulty level which is stored in local storage along with their
-            high score. The goal is to guess the word before you run out of
-            lives.
+            Scare the crow before the crow scares you! This is my version of the
+            classic word guessing game, Hangman. The user can select a
+            difficulty level and that is stored in local storage along with the
+            highest score. The goal of the game is to guess the word before you
+            run out of lives.
           </p>
           <p className="project-tech">Tech:</p>
           <ul className="tech-tags">

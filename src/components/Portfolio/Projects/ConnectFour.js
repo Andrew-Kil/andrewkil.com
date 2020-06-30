@@ -38,8 +38,10 @@ const ConnectFour = () => {
         </div>
         <div className="project-description">
           <p>
-            Connect Four game - first player to get four in a row wins. Created
-            using React/Redux. Used CSS modules as well as Jest.
+            Connect Four - 2 player game. Take turns dropping tokens into the
+            grid. The first player to get four in a row wins. If the entire grid
+            is occupied by tokens without any four in a row combinations, the
+            game is a tie. Created using React & Redux.
           </p>
           <p className="project-tech">Tech:</p>
           <ul className="tech-tags">

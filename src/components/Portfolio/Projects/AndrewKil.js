@@ -38,9 +38,9 @@ const AndrewKil = () => {
         </div>
         <div className="project-description">
           <p>
-            Portfolio website created using React, HTML5, & CSS3. Fully
-            responsive. CSS animations. Formspree was used for the contact form.
-            Netlify for hosting. Meta tags for SEO & Open Graph.
+            Portfolio website created using React. HTML includes meta tags for
+            SEO & Open Graph. CSS includes animations and responsive design.
+            Formspree was used for the contact form. Deployed on Netlify.
           </p>
         </div>
         <p className="project-tech">Tech:</p>

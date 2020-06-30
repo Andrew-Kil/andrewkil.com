@@ -38,8 +38,8 @@ const Blackjack = () => {
         </div>
         <div className="project-description">
           <p>
-            Blackjack game - beat the dealers score without going over 21.
-            Created using Vanilla JavaScript.
+            Play Blackjack against the AI dealer - place a bet and try to beat
+            their score without going over 21. Created using Vanilla JavaScript.
           </p>
           <p className="project-tech">Tech:</p>
           <ul className="tech-tags">

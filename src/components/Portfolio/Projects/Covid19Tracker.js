@@ -38,8 +38,9 @@ const Covid19Tracker = () => {
         </div>
         <div className="project-description">
           <p>
-            Track statistics about COVID-19. Filter by country. React Hooks.
-            Responsive design. Chart.js for data visualization.
+            View global statistics about COVID-19 or select a country to filter
+            the results. Uses React Hooks, Material-UI, and Chart.js (data
+            visualization). This project is based on a Youtube tutorial.
           </p>
           <p className="project-tech">Tech:</p>
           <ul className="tech-tags">

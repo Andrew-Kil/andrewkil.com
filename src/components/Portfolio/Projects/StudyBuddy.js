@@ -38,7 +38,11 @@ const StudyBuddy = () => {
         </div>
         <div className="project-description">
           <p>
-            Improve productivity by using a pomodoro timer and tasks tracker
+            This app allows the user to improve their productivity by using a
+            pomodoro timer and a todo list. The pomodoro technique uses the
+            strategy of breaking down work into intervals, typically 25 minutes,
+            followed by a short or long break. Turn off any distractions such as
+            phone, internet, and TV in order to focus on the task at hand.
           </p>
           <p className="project-tech">Tech:</p>
           <ul className="tech-tags">

@@ -33,13 +33,17 @@ const SleepApp = () => {
         </div>
         <div className="project-description">
           <p>
-            An application that stores user logs of sleep information such as
-            time slept, dreams, and any other notes they wish to add. The user
-            can choose to make their logs private or public. All public logs can
-            be viewed by the community. Users can click on a users profile to
-            find information about them as well as their sleep logs. Firebase
-            authentication. Written using React Hooks and Context API. Work in
-            progress.
+            Sleep App is an application where users can submit sleep logs that
+            include information such as what time they slept and if they had any
+            dreams. Any other relevant information can be added in the notes
+            section. The sleep logs can be saved as either private or public.
+            Public sleep logs can be viewed by other users who visit your
+            profile page and they can also see the profile information that you
+            submitted including name and occupation. PostgreSQL is used to store
+            data including sleep logs and user profile information. Firebase is
+            used for user authentication. State management is handled by using a
+            combination of React Hooks and the Context API. Sleep app is under
+            construction and it will be deployed soon.
           </p>
           <p className="project-tech">Tech:</p>
           <ul className="tech-tags">
