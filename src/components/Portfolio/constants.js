@@ -13,6 +13,9 @@ export const NODE = "Node";
 export const EXPRESS = "Express";
 export const NODE_EXPRESS = "Node/Express";
 export const POSTGRESQL = "PostgreSQL";
+export const MONGODB = "MongoDB";
+export const GRAPHQL = "GraphQL";
+export const AWS = "AWS";
 export const JEST = "Jest";
 export const MATERIAL_UI = "Material-UI";
 export const BOOTSTRAP = "Bootstrap";
@@ -59,6 +62,19 @@ export const projectTags = {
     POSTGRESQL,
     FIREBASE,
     FULL_STACK,
+  ],
+  recipePals: [
+    SHOW_ALL,
+    HTML5_CSS3,
+    JAVASCRIPT,
+    REACT,
+    REDUX,
+    BOOTSTRAP,
+    EXPRESS,
+    MONGODB,
+    GRAPHQL,
+    FULL_STACK,
+    RESPONSIVE_DESIGN,
   ],
   scareTheCrow: [
     SHOW_ALL,
