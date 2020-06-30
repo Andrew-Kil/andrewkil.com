@@ -176,11 +176,13 @@
   color: white;
 }
 
-.project-links div:first-child {
+.project-links div:first-child,
+.project-links div:nth-child(2) {
   opacity: 0.5;
 }
 
-.project-links a:nth-child(2) {
+.project-links a:nth-child(2),
+.project-links div:nth-child(2) {
   color: black;
   border-top: 2px solid black;
   border-right: 2px solid black;
@@ -194,7 +196,8 @@
   color: var(--tertiary-color);
 }
 
-.project-links div:first-child:hover {
+.project-links div:first-child:hover,
+.project-links div:nth-child(2):hover {
   cursor: no-drop;
 }
 
