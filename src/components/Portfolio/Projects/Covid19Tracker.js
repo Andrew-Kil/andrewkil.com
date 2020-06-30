@@ -40,7 +40,8 @@ const Covid19Tracker = () => {
           <p>
             View global statistics about COVID-19 or select a country to filter
             the results. Uses React Hooks, Material-UI, and Chart.js (data
-            visualization). This project is based on a Youtube tutorial.
+            visualization). This project was created by following along with a
+            Youtube tutorial.
           </p>
           <p className="project-tech">Tech:</p>
           <ul className="tech-tags">
