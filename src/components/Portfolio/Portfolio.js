@@ -3,6 +3,8 @@ import ButtonTags from "./ButtonTags";
 import * as c from "./constants";
 import AndrewKil from "./Projects/AndrewKil";
 import SaveAPlate from "./Projects/SaveAPlate";
+import NetflixClone from "./Projects/NetflixClone";
+import BlahBlahBlog from "./Projects/BlahBlahBlog";
 import SleepApp from "./Projects/SleepApp";
 import RecipePals from "./Projects/RecipePals";
 import ScareTheCrow from "./Projects/ScareTheCrow";
@@ -60,6 +62,8 @@ const Projects = () => {
         <div className="projects-container">
           {c.projectTags.andrewKil.includes(selectedTag) && <AndrewKil />}
           {c.projectTags.saveAPlate.includes(selectedTag) && <SaveAPlate />}
+          {c.projectTags.netflixClone.includes(selectedTag) && <NetflixClone />}
+          {c.projectTags.blahBlahBlog.includes(selectedTag) && <BlahBlahBlog />}
           {c.projectTags.sleepApp.includes(selectedTag) && <SleepApp />}
           {c.projectTags.scareTheCrow.includes(selectedTag) && <ScareTheCrow />}
           {c.projectTags.recipePals.includes(selectedTag) && <RecipePals />}
