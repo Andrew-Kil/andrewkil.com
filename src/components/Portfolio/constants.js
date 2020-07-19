@@ -14,6 +14,7 @@ export const EXPRESS = "Express";
 export const NODE_EXPRESS = "Node/Express";
 export const POSTGRESQL = "PostgreSQL";
 export const MONGODB = "MongoDB";
+export const GATSBY = "Gatsby";
 export const GRAPHQL = "GraphQL";
 export const AWS = "AWS";
 export const JEST = "Jest";
@@ -119,5 +120,25 @@ export const projectTags = {
     LOCAL_STORAGE,
     FRONTEND,
     RESPONSIVE_DESIGN,
+    NETLIFY,
+  ],
+  netflixClone: [
+    SHOW_ALL,
+    HTML5_CSS3,
+    JAVASCRIPT,
+    REACT,
+    FIREBASE,
+    FRONTEND,
+    RESPONSIVE_DESIGN,
+  ],
+  blahBlahBlog: [
+    SHOW_ALL,
+    HTML5_CSS3,
+    JAVASCRIPT,
+    REACT,
+    GATSBY,
+    FRONTEND,
+    RESPONSIVE_DESIGN,
+    NETLIFY,
   ],
 };
