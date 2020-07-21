@@ -36,16 +36,6 @@ const About = () => {
               questions or want to chat!
             </p>
           </div>
-          <div className="codewars-badge-container">
-            <a
-              href="https://www.codewars.com/users/AndrewKil"
-              target="_blank"
-              rel="noopener noreferrer">
-              <img
-                src="https://www.codewars.com/users/AndrewKil/badges/micro"
-                alt="Codewars badge"></img>
-            </a>
-          </div>
           <div className="contact-buttons-container">
             <a
               href="https://github.com/Andrew-Kil"
@@ -62,11 +52,11 @@ const About = () => {
               LinkedIn
             </a>
             <a
-              href={resume}
+              href="https://blah-blah-blog.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="contact-buttons">
-              Resume
+              Blog
             </a>
           </div>
         </section>
