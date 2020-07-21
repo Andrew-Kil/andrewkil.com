@@ -1,6 +1,5 @@
 import React from "react";
 import icon from "../../assets/A|K.png";
-import resume from "../../assets/resume.pdf";
 import "./NavBar.css";
 
 const NavBar = () => {
@@ -35,14 +34,6 @@ const NavBar = () => {
           className="nav-a"
           aria-label="Navigate to the Contact section">
           <li>Contact</li>
-        </a>
-        <a
-          href={resume}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="nav-a"
-          aria-label="Navigate to the Resume section">
-          <li>Resume</li>
         </a>
         <a
           href="https://github.com/andrew-kil"
