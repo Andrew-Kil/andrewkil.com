@@ -52,6 +52,13 @@ const About = () => {
               LinkedIn
             </a>
             <a
+              href={resume}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="contact-buttons">
+              Resume
+            </a>
+            <a
               href="https://blah-blah-blog.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
