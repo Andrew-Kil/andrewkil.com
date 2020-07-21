@@ -30,19 +30,8 @@
   border-bottom: 1px solid var(--url-color);
 }
 
-.codewars-badge-container {
-  text-align: center;
-  margin-top: 5em;
-}
-
-.codewars-badge-container a:hover {
-  border: none;
-}
-
 .contact-buttons-container {
-  margin: 2em 0;
-  display: flex;
-  justify-content: space-between;
+  margin: 5em auto;
 }
 
 .contact-buttons-container :first-child {
@@ -71,12 +60,12 @@
 
 .contact-buttons {
   text-decoration: none;
-  margin: 0 auto;
+  margin: 0 1em;
+  border-radius: 5px;
   text-align: center;
   color: var(--primary-color);
-  padding: 0.25em 1em;
+  padding: 0.5em 1em;
   text-decoration: none;
-  border-radius: 4px;
   font-weight: 600;
   box-shadow: 0 2px #adb5bd;
 }
