@@ -47,8 +47,8 @@ const SleepApp = () => {
           </p>
           <p className="project-tech">Tech:</p>
           <ul className="tech-tags">
-            {c.projectTags.sleepApp.slice(1).map((tag) => (
-              <li>{tag}</li>
+            {c.projectTags.sleepApp.slice(1).map((tag, idx) => (
+              <li key={idx}>{tag}</li>
             ))}
           </ul>
         </div>

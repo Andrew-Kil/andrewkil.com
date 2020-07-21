@@ -48,8 +48,8 @@ const AndrewKil = () => {
         </div>
         <p className="project-tech">Tech:</p>
         <ul className="tech-tags">
-          {c.projectTags.blahBlahBlog.slice(1).map((tag) => (
-            <li>{tag}</li>
+          {c.projectTags.blahBlahBlog.slice(1).map((tag, idx) => (
+            <li key={idx}>{tag}</li>
           ))}
         </ul>
       </div>
