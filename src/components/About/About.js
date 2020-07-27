@@ -9,23 +9,27 @@ const About = () => {
         <h3>About</h3>
         <section className="about-info">
           <div className="about-text">
-            <p>Hello!</p>
             <p>
-              I'm Andrew, a developer from New York City. I graduated from{" "}
+              Hi, I'm Andrew. I started learning how to code in my free time
+              while I was working in the hospitality industry, using websites
+              such as freeCodeCamp and Codecademy. Shortly after, I found out
+              about{" "}
               <a
                 href="https://www.pursuit.org/"
                 target="_blank"
                 rel="noopener noreferrer">
                 Pursuit
               </a>
-              , a 10-month software engineering program, where I learned Full
-              Stack Web Development and I have experience developing, designing
-              and deploying web applications.
+              , a highly selective and diverse software engineering program
+              where the fellows come from non-traditional backgrounds. I
+              graduated from Pursuit where I spent 10-months learning Full Stack
+              Web Development.
             </p>
             <p>
-              My background of working in the hospitality industry allows me to
-              quickly adapt to different environments and effectively
-              communicate with others.
+              My past experience of working in the hospitality industry taught
+              me the importance of effectively working in a team to empathize
+              with guests and provide excellent service. I apply that mindset
+              towards designing and developing user-centered applications.
             </p>
             <p>
               I'm currently looking for opportunities to join a team and improve
