@@ -50,15 +50,22 @@ const Skills = () => {
         target="_blank"
         rel="noopener noreferrer">
         <i className="devicon-javascript-plain colored"></i>
-        <p>Javascript</p>
+        <p>JavaScript</p>
+      </a>
+      <a
+        href="https://www.typescriptlang.org/"
+        target="_blank"
+        rel="noopener noreferrer">
+        <i class="devicon-typescript-plain colored"></i>
+        <p>TypeScript</p>
       </a>
       <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">
         <i className="devicon-react-original colored"></i>
         <p>React</p>
       </a>
-      <a href="https://jquery.com/" target="_blank" rel="noopener noreferrer">
-        <i className="devicon-jquery-plain colored"></i>
-        <p>jQuery</p>
+      <a href="https://angular.io/" target="_blank" rel="noopener noreferrer">
+        <i class="devicon-angularjs-plain colored"></i>
+        <p>Angular</p>
       </a>
     </>
   );
@@ -129,7 +136,28 @@ const Skills = () => {
         target="_blank"
         rel="noopener noreferrer">
         <i className="devicon-visualstudio-plain colored"></i>
-        <p>Visual Studio Code</p>
+        <p>VS Code</p>
+      </a>
+      <a
+        href="https://www.microsoft.com/en-us/windows"
+        target="_blank"
+        rel="noopener noreferrer">
+        <i class="devicon-windows8-original colored"></i>
+        <p>Windows</p>
+      </a>
+      <a
+        href="https://www.apple.com/macos/big-sur/"
+        target="_blank"
+        rel="noopener noreferrer">
+        <i class="devicon-apple-original colored"></i>
+        <p>macOS</p>
+      </a>
+      <a
+        href="https://www.linux.org/"
+        target="_blank"
+        rel="noopener noreferrer">
+        <i class="devicon-linux-plain colored"></i>
+        <p>Linux</p>
       </a>
     </>
   );
