@@ -11,7 +11,6 @@ import ScareTheCrow from "./Projects/ScareTheCrow";
 import Covid19Tracker from "./Projects/Covid19Tracker";
 import ConnectFour from "./Projects/ConnectFour";
 import Blackjack from "./Projects/Blackjack";
-import StudyBuddy from "./Projects/StudyBuddy";
 import "./Portfolio.css";
 
 const Projects = () => {
@@ -72,7 +71,6 @@ const Projects = () => {
           )}
           {c.projectTags.connectFour.includes(selectedTag) && <ConnectFour />}
           {c.projectTags.blackjack.includes(selectedTag) && <Blackjack />}
-          {c.projectTags.studyBuddy.includes(selectedTag) && <StudyBuddy />}
         </div>
       </div>
     </div>
