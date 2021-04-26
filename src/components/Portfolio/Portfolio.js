@@ -49,14 +49,14 @@ const Projects = () => {
           <ButtonTags handleClick={handleClick} selectedTag={selectedTag} />
         </div>
 
-        <h4 className="filter-projects-text">
+        <h5 className="filter-projects-text">
           {selectedTag === c.SHOW_ALL
             ? "Showing all projects. Use the filter to list them by skill/technology."
             : `Showing ${calculateNumberOfProjects()} out of ${
                 Object.keys(c.projectTags).length
               } projects filtered by: 
           ${selectedTag}.`}
-        </h4>
+        </h5>
 
         <div className="projects-container">
           {c.projectTags.andrewKil.includes(selectedTag) && <AndrewKil />}
