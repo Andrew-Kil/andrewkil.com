@@ -28,6 +28,15 @@ h3 {
   text-transform: uppercase;
 }
 
+h4 {
+  text-align: center;
+  padding: 1em 0em;
+  letter-spacing: 0.07em;
+  font-size: 1.5em;
+  font-weight: 600;
+  color: #011627;
+}
+
 .app {
   line-height: 2em;
   animation: fadein 2s;
