@@ -67,6 +67,24 @@ const Skills = () => {
         <i class="devicon-angularjs-plain colored"></i>
         <p>Angular</p>
       </a>
+      <a href="https://redux.js.org/" target="_blank" rel="noopener noreferrer">
+        <i class="devicon-redux-original colored"></i>
+        <p>Redux</p>
+      </a>
+      <a
+        href="https://storybook.js.org/"
+        target="_blank"
+        rel="noopener noreferrer">
+        <i class="devicon-storybook-plain colored"></i>
+        <p>Storybook</p>
+      </a>
+      <a
+        href="https://tailwindcss.com/"
+        target="_blank"
+        rel="noopener noreferrer">
+        <i class="devicon-tailwindcss-plain colored"></i>
+        <p>Tailwind CSS</p>
+      </a>
     </>
   );
 
@@ -158,6 +176,13 @@ const Skills = () => {
         rel="noopener noreferrer">
         <i class="devicon-linux-plain colored"></i>
         <p>Linux</p>
+      </a>
+      <a
+        href="https://www.figma.com/"
+        target="_blank"
+        rel="noopener noreferrer">
+        <i class="devicon-figma-plain colored"></i>
+        <p>Figma</p>
       </a>
     </>
   );
