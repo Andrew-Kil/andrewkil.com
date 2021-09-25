@@ -56,7 +56,7 @@ const Skills = () => {
         href="https://www.typescriptlang.org/"
         target="_blank"
         rel="noopener noreferrer">
-        <i class="devicon-typescript-plain colored"></i>
+        <i className="devicon-typescript-plain colored"></i>
         <p>TypeScript</p>
       </a>
       <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">
@@ -64,25 +64,25 @@ const Skills = () => {
         <p>React</p>
       </a>
       <a href="https://angular.io/" target="_blank" rel="noopener noreferrer">
-        <i class="devicon-angularjs-plain colored"></i>
+        <i className="devicon-angularjs-plain colored"></i>
         <p>Angular</p>
       </a>
       <a href="https://redux.js.org/" target="_blank" rel="noopener noreferrer">
-        <i class="devicon-redux-original colored"></i>
+        <i className="devicon-redux-original colored"></i>
         <p>Redux</p>
       </a>
       <a
         href="https://storybook.js.org/"
         target="_blank"
         rel="noopener noreferrer">
-        <i class="devicon-storybook-plain colored"></i>
+        <i className="devicon-storybook-plain colored"></i>
         <p>Storybook</p>
       </a>
       <a
         href="https://tailwindcss.com/"
         target="_blank"
         rel="noopener noreferrer">
-        <i class="devicon-tailwindcss-plain colored"></i>
+        <i className="devicon-tailwindcss-plain colored"></i>
         <p>Tailwind CSS</p>
       </a>
     </>
@@ -160,28 +160,28 @@ const Skills = () => {
         href="https://www.microsoft.com/en-us/windows"
         target="_blank"
         rel="noopener noreferrer">
-        <i class="devicon-windows8-original colored"></i>
+        <i className="devicon-windows8-original colored"></i>
         <p>Windows</p>
       </a>
       <a
         href="https://www.apple.com/macos/big-sur/"
         target="_blank"
         rel="noopener noreferrer">
-        <i class="devicon-apple-original colored"></i>
+        <i className="devicon-apple-original colored"></i>
         <p>macOS</p>
       </a>
       <a
         href="https://www.linux.org/"
         target="_blank"
         rel="noopener noreferrer">
-        <i class="devicon-linux-plain colored"></i>
+        <i className="devicon-linux-plain colored"></i>
         <p>Linux</p>
       </a>
       <a
         href="https://www.figma.com/"
         target="_blank"
         rel="noopener noreferrer">
-        <i class="devicon-figma-plain colored"></i>
+        <i className="devicon-figma-plain colored"></i>
         <p>Figma</p>
       </a>
     </>
