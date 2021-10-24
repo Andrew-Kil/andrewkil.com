@@ -32,6 +32,7 @@ const NavBar = () => {
         </a>
         <a
           href={resume}
+          className="nav-a"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Open resume in new tab">
