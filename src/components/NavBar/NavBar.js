@@ -1,5 +1,6 @@
 import React from "react";
 import icon from "../../assets/A|K.png";
+import resume from "../../assets/Andrew_Kil_Resume.pdf";
 import "./NavBar.css";
 
 const NavBar = () => {
@@ -28,6 +29,13 @@ const NavBar = () => {
           className="nav-a"
           aria-label="Navigate to the Portfolio section">
           <li>Portfolio</li>
+        </a>
+        <a
+          href={resume}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Open resume in new tab">
+          <li>Resume</li>
         </a>
         <a
           href="#contact"

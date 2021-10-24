@@ -61,6 +61,7 @@ const Projects = () => {
         <div className="projects-container">
           {c.projectTags.andrewKil.includes(selectedTag) && <AndrewKil />}
           {c.projectTags.saveAPlate.includes(selectedTag) && <SaveAPlate />}
+          {c.projectTags.connectFour.includes(selectedTag) && <ConnectFour />}
           {c.projectTags.netflixClone.includes(selectedTag) && <NetflixClone />}
           {c.projectTags.blahBlahBlog.includes(selectedTag) && <BlahBlahBlog />}
           {c.projectTags.sleepApp.includes(selectedTag) && <SleepApp />}
@@ -69,7 +70,6 @@ const Projects = () => {
           {c.projectTags.covid19Tracker.includes(selectedTag) && (
             <Covid19Tracker />
           )}
-          {c.projectTags.connectFour.includes(selectedTag) && <ConnectFour />}
           {c.projectTags.blackjack.includes(selectedTag) && <Blackjack />}
         </div>
       </div>
