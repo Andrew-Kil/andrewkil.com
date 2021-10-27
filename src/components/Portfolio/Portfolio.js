@@ -59,18 +59,18 @@ const Projects = () => {
         </h5>
 
         <div className="projects-container">
-          {c.projectTags.andrewKil.includes(selectedTag) && <AndrewKil />}
           {c.projectTags.saveAPlate.includes(selectedTag) && <SaveAPlate />}
           {c.projectTags.connectFour.includes(selectedTag) && <ConnectFour />}
           {c.projectTags.netflixClone.includes(selectedTag) && <NetflixClone />}
           {c.projectTags.blahBlahBlog.includes(selectedTag) && <BlahBlahBlog />}
-          {c.projectTags.sleepApp.includes(selectedTag) && <SleepApp />}
           {c.projectTags.scareTheCrow.includes(selectedTag) && <ScareTheCrow />}
           {c.projectTags.recipePals.includes(selectedTag) && <RecipePals />}
           {c.projectTags.covid19Tracker.includes(selectedTag) && (
             <Covid19Tracker />
           )}
-          {c.projectTags.blackjack.includes(selectedTag) && <Blackjack />}
+          {c.projectTags.andrewKil.includes(selectedTag) && <AndrewKil />}
+          {/* {c.projectTags.sleepApp.includes(selectedTag) && <SleepApp />} */}
+          {/* {c.projectTags.blackjack.includes(selectedTag) && <Blackjack />} */}
         </div>
       </div>
     </div>
