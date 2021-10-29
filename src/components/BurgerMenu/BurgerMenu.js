@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import resume from "../../assets/resume.pdf";
+import resume from "../../assets/Andrew_Kil_Resume.pdf";
 import { fallDown as Menu } from "react-burger-menu";
 import "./BurgerMenu.css";
 
