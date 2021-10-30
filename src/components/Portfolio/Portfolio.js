@@ -5,12 +5,12 @@ import AndrewKil from "./Projects/AndrewKil";
 import SaveAPlate from "./Projects/SaveAPlate";
 import NetflixClone from "./Projects/NetflixClone";
 import BlahBlahBlog from "./Projects/BlahBlahBlog";
-import SleepApp from "./Projects/SleepApp";
+// import SleepApp from "./Projects/SleepApp";
 import RecipePals from "./Projects/RecipePals";
 import ScareTheCrow from "./Projects/ScareTheCrow";
 import Covid19Tracker from "./Projects/Covid19Tracker";
 import ConnectFour from "./Projects/ConnectFour";
-import Blackjack from "./Projects/Blackjack";
+// import Blackjack from "./Projects/Blackjack";
 import "./Portfolio.css";
 
 const Projects = () => {
