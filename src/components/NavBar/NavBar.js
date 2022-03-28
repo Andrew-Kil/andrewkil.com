@@ -1,6 +1,6 @@
 import React from "react";
 import icon from "../../assets/A|K.png";
-import resume from "../../assets/Andrew_Kil_Resume.pdf";
+import resume from "../../assets/01_Andrew_Kil_Resume.pdf";
 import "./NavBar.css";
 
 const NavBar = () => {
