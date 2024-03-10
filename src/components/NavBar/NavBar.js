@@ -1,5 +1,5 @@
 import React from "react";
-import icon from "../../assets/A|K.png";
+import icon from "../../assets/AK.png";
 import resume from "../../assets/01_Andrew_Kil_Resume.pdf";
 import "./NavBar.css";
 
