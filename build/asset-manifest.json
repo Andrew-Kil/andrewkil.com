@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/andrewkil.com/static/css/main.7ade540d.chunk.css",
+    "main.js": "/andrewkil.com/static/js/main.b8ebb463.chunk.js",
+    "main.js.map": "/andrewkil.com/static/js/main.b8ebb463.chunk.js.map",
+    "runtime-main.js": "/andrewkil.com/static/js/runtime-main.6e8b982c.js",
+    "runtime-main.js.map": "/andrewkil.com/static/js/runtime-main.6e8b982c.js.map",
+    "static/js/2.51799e3d.chunk.js": "/andrewkil.com/static/js/2.51799e3d.chunk.js",
+    "static/js/2.51799e3d.chunk.js.map": "/andrewkil.com/static/js/2.51799e3d.chunk.js.map",
+    "index.html": "/andrewkil.com/index.html",
+    "precache-manifest.96e871965340b20dc20839622501cc25.js": "/andrewkil.com/precache-manifest.96e871965340b20dc20839622501cc25.js",
+    "service-worker.js": "/andrewkil.com/service-worker.js",
+    "static/css/main.7ade540d.chunk.css.map": "/andrewkil.com/static/css/main.7ade540d.chunk.css.map",
+    "static/js/2.51799e3d.chunk.js.LICENSE.txt": "/andrewkil.com/static/js/2.51799e3d.chunk.js.LICENSE.txt",
+    "static/media/01_Andrew_Kil_Resume.pdf": "/andrewkil.com/static/media/01_Andrew_Kil_Resume.8c271a1a.pdf",
+    "static/media/andrewkil.png": "/andrewkil.com/static/media/andrewkil.20072451.png",
+    "static/media/Main.css": "/andrewkil.com/static/media/background-macbook.faac830e.jpeg",
+    "static/media/blah-blah-blog.png": "/andrewkil.com/static/media/blah-blah-blog.31f6a88a.png",
+    "static/media/connect-four.png": "/andrewkil.com/static/media/connect-four.865c2f15.png",
+    "static/media/covid-19-tracker.png": "/andrewkil.com/static/media/covid-19-tracker.12d6c0f3.png",
+    "static/media/netflix-clone.png": "/andrewkil.com/static/media/netflix-clone.5bb4d083.png",
+    "static/media/recipe-pals.png": "/andrewkil.com/static/media/recipe-pals.dba68d7b.png",
+    "static/media/save-a-plate.png": "/andrewkil.com/static/media/save-a-plate.f693270a.png",
+    "static/media/scare-the-crow.png": "/andrewkil.com/static/media/scare-the-crow.c2202d47.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6e8b982c.js",
+    "static/js/2.51799e3d.chunk.js",
+    "static/css/main.7ade540d.chunk.css",
+    "static/js/main.b8ebb463.chunk.js"
+  ]
+}
