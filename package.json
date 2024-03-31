@@ -1,7 +1,7 @@
 {
   "name": "andrewkil.com",
   "version": "0.1.0",
-  "homepage": "https://andrew-kil.github.io/andrewkil.com",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",

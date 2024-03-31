@@ -1,32 +1,23 @@
 {
   "files": {
-    "main.css": "/andrewkil.com/static/css/main.7ade540d.chunk.css",
-    "main.js": "/andrewkil.com/static/js/main.b8ebb463.chunk.js",
-    "main.js.map": "/andrewkil.com/static/js/main.b8ebb463.chunk.js.map",
-    "runtime-main.js": "/andrewkil.com/static/js/runtime-main.6e8b982c.js",
-    "runtime-main.js.map": "/andrewkil.com/static/js/runtime-main.6e8b982c.js.map",
-    "static/js/2.51799e3d.chunk.js": "/andrewkil.com/static/js/2.51799e3d.chunk.js",
-    "static/js/2.51799e3d.chunk.js.map": "/andrewkil.com/static/js/2.51799e3d.chunk.js.map",
-    "index.html": "/andrewkil.com/index.html",
-    "precache-manifest.96e871965340b20dc20839622501cc25.js": "/andrewkil.com/precache-manifest.96e871965340b20dc20839622501cc25.js",
-    "service-worker.js": "/andrewkil.com/service-worker.js",
-    "static/css/main.7ade540d.chunk.css.map": "/andrewkil.com/static/css/main.7ade540d.chunk.css.map",
-    "static/js/2.51799e3d.chunk.js.LICENSE.txt": "/andrewkil.com/static/js/2.51799e3d.chunk.js.LICENSE.txt",
-    "static/media/01_Andrew_Kil_Resume.pdf": "/andrewkil.com/static/media/01_Andrew_Kil_Resume.8c271a1a.pdf",
-    "static/media/andrewkil.png": "/andrewkil.com/static/media/andrewkil.20072451.png",
-    "static/media/Main.css": "/andrewkil.com/static/media/background-macbook.faac830e.jpeg",
-    "static/media/blah-blah-blog.png": "/andrewkil.com/static/media/blah-blah-blog.31f6a88a.png",
-    "static/media/connect-four.png": "/andrewkil.com/static/media/connect-four.865c2f15.png",
-    "static/media/covid-19-tracker.png": "/andrewkil.com/static/media/covid-19-tracker.12d6c0f3.png",
-    "static/media/netflix-clone.png": "/andrewkil.com/static/media/netflix-clone.5bb4d083.png",
-    "static/media/recipe-pals.png": "/andrewkil.com/static/media/recipe-pals.dba68d7b.png",
-    "static/media/save-a-plate.png": "/andrewkil.com/static/media/save-a-plate.f693270a.png",
-    "static/media/scare-the-crow.png": "/andrewkil.com/static/media/scare-the-crow.c2202d47.png"
+    "main.css": "./static/css/main.b8a35bd4.css",
+    "main.js": "./static/js/main.251be1ba.js",
+    "static/media/netflix-clone.png": "./static/media/netflix-clone.1a86d1a76653fd2b080e.png",
+    "static/media/scare-the-crow.png": "./static/media/scare-the-crow.d5da49823d8fa1c37de0.png",
+    "static/media/recipe-pals.png": "./static/media/recipe-pals.e09adbf5797e4e536f32.png",
+    "static/media/andrewkil.png": "./static/media/andrewkil.54d70e31e241f18223bd.png",
+    "static/media/save-a-plate.png": "./static/media/save-a-plate.f7db9acbc02ffc94936c.png",
+    "static/media/blah-blah-blog.png": "./static/media/blah-blah-blog.051c1dc06edbe9d1553b.png",
+    "static/media/covid-19-tracker.png": "./static/media/covid-19-tracker.95d4a916072349f4fbce.png",
+    "static/media/01_Andrew_Kil_Resume.pdf": "./static/media/01_Andrew_Kil_Resume.96f206c7449e97006a05.pdf",
+    "static/media/background-macbook.jpeg": "./static/media/background-macbook.da6cd230eade3dc9fe36.jpeg",
+    "static/media/connect-four.png": "./static/media/connect-four.e61aa54dc7a67843c7a9.png",
+    "index.html": "./index.html",
+    "main.b8a35bd4.css.map": "./static/css/main.b8a35bd4.css.map",
+    "main.251be1ba.js.map": "./static/js/main.251be1ba.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.6e8b982c.js",
-    "static/js/2.51799e3d.chunk.js",
-    "static/css/main.7ade540d.chunk.css",
-    "static/js/main.b8ebb463.chunk.js"
+    "static/css/main.b8a35bd4.css",
+    "static/js/main.251be1ba.js"
   ]
 }
